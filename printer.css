@@ -1,0 +1,4 @@
+#icon-invoice-page, #icon-invoice-page + h2, #message, #adminmenu, #adminmenuback, #adminmenuwrap, #adminmenushadow,
+#dbp-invoice-add-payments, #footer { display: none; border: none;}
+#wpbody, #wpbody-content, #wpcontent { clear: both; }
+#wpcontent { margin-left: 0;	}

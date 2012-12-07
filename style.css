@@ -1,0 +1,80 @@
+#icon-invoice-page { background: transparent url(images/screen-icon.png) no-repeat; }
+#icon-sellers-page { background: transparent url(images/sellers-icon.png) no-repeat; }
+#icon-products-page { background: transparent url(images/products-icon.png) no-repeat; }
+.dbp_form_settings_panel { margin-top: 2em;clear:both;}
+.dbp_form_settings_panel.half-left { float: left; width:50%; }
+.dbp_form_settings_panel.half-right { float: right; width:50%; }
+.clr { clear: both; }
+.dbp_form_settings_panel p.center {text-align:center;}
+.dbp_form_settings_panel h3.hndle { padding: 0.5em; font-size: 120%; font-weight:bolder; }
+.dbp_form_settings_panel label.dpb_blocked,
+.dbp-left-box label.dbp_blocked,
+.dbp-right-box label,
+.dbp_blocked { display: block; }
+.dbp_form_settings_panel input.dbp_input_text,
+.dbp_form_settings_panel textarea.dbp_textarea,
+.dbp-right-box input.dbp_input_text,
+.dbp-left-box select.dbp_input_text,
+.dbp-left-box input.dbp_input_text,
+input.dbp_long_input_text { width: 90%; padding: 0.5em 0 0.5em 0.5em;}
+.dbp-left-box select.dbp_input_text {padding:0; }
+.dbp_form_settings_panel textarea.dbp_textarea { height: 90px; }
+
+/* Modal window create invoice */
+#message { display: none; padding: 0.5em; }
+.dbp-left-box { float: left; width: 49%; }
+.dbp-right-box { float: right; width: 49%; }
+.dbp-right-box p.right {text-align: right; }
+#shopping_invoice_items { display: none; padding: 0.5em; }
+#shopping_invoice_items_header { padding: 0.1em; margin-top: 1em;}
+div.left { float: left; width:40%;}
+div.first {width:20%;}
+div.second {width:25%;}
+div.third {width:10%;}
+div.right { float: right; }
+
+
+/* Products page */
+.dbp-sold { color: red; }
+.dbp-not-much { color: orange; }
+.dbp-available,
+.dbp-currency-symbol { color: green; }
+.dbp-unpaiable { color: orange; text-transform: capitalize; }
+input.dbp_long_input_text { width:70%; }
+/* Combobox style */
+.ui-combobox { position: relative; display: inline-block; }
+.ui-combobox-toggle { position: absolute; top: 0; bottom: 0; margin-left: -1px;	padding: 0;/* adjust styles for IE 6/7 */ *height: 1.7em; *top: 0.1em; }
+.ui-combobox-input { margin: 0; padding: 0.3em; }
+
+/* Invoice page */
+#dbp-invoice-header td strong.dbp-sold,
+#dbp-invoice-header td strong.dbp-available,
+#dbp-invoice-clientinfo td { text-transform: capitalize; }
+#dbp-invoice-items div.left { float: left; width:60%;}
+#dbp-invoice-items div.first {width:10%;}
+#dbp-invoice-items div.second {width:15%;}
+#dbp-invoice-items div.third {width:10%;}
+#dbp-invoice-items div.right { float: right; }
+#dbp-invoice-items div.invoice-left { float: left; width: 70%; }
+
+#dbp-invoice-items div.dbp-item-total .align-right { float: left; text-align: right; }
+#dbp-invoice-items div.border-bottom { border-bottom: 1px dashed #eee; }
+
+#dbp-invoice-insert-payment input[type=text],
+#dbp-invoice-insert-payment select,
+#dbp-invoice-unpaiable input[type=text],
+#dbp-invoice-unpaiable select { width: 100%; }
+.tr-odd { background-color: #eee; }
+#dbp-payment-history-table,
+#dbp-invoice-items-table { border-collapse: collapse; border: 1px solid #8e8e8e;}
+
+/* CLients page */
+img#only-one { width: 30%; min-width: 200px; height: auto; margin: 0 auto; }
+img#only-one-smaller { width: 20%; min-width: 150px; height: auto; float: left; }
+#the-right-profile-box { margin-left: 1em; float: left; line-height: 2em; }
+#dbp_search_client { float: right; width: 40%}
+.dbp_blocked b { color: darkblue;text-transform: capitalize; }
+.dbp_blocked b.email { text-transform: lowercase; }
+#show-client-invoices { border-collapse: collapse; }
+
+#dbp-invoice-printer { width:800px; margin: 0 auto;}
